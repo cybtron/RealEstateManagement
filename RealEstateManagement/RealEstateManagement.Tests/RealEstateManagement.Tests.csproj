@@ -103,9 +103,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RealEstateManagement\RealEstateManagement.csproj">
+    <ProjectReference Include="..\RealEstateManagement\RealEstateManagement.Web.csproj">
       <Project>{7D9C19C3-D481-4E32-B378-D749A13EC723}</Project>
-      <Name>RealEstateManagement</Name>
+      <Name>RealEstateManagement.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

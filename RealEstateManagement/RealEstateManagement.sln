@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement", "RealEstateManagement\RealEstateManagement.csproj", "{7D9C19C3-D481-4E32-B378-D749A13EC723}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement.Web", "RealEstateManagement\RealEstateManagement.Web.csproj", "{7D9C19C3-D481-4E32-B378-D749A13EC723}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement.Tests", "RealEstateManagement.Tests\RealEstateManagement.Tests.csproj", "{D1AE281C-9FAD-425A-8B05-49237DCC2534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement.Common", "RealEstateManagement.Common\RealEstateManagement.Common.csproj", "{8631B76D-D5C3-4DA8-8F17-CB39E522CC87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement.Services", "RealManagement.Services\RealEstateManagement.Services.csproj", "{0C657860-5DB5-4177-B852-F5F5E2216DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement.Data", "RealEstateManagement.Data\RealEstateManagement.Data.csproj", "{40EBDB0C-3912-479D-BEC6-61CEE12605BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +25,18 @@ Global
 		{D1AE281C-9FAD-425A-8B05-49237DCC2534}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1AE281C-9FAD-425A-8B05-49237DCC2534}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1AE281C-9FAD-425A-8B05-49237DCC2534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8631B76D-D5C3-4DA8-8F17-CB39E522CC87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8631B76D-D5C3-4DA8-8F17-CB39E522CC87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8631B76D-D5C3-4DA8-8F17-CB39E522CC87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8631B76D-D5C3-4DA8-8F17-CB39E522CC87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C657860-5DB5-4177-B852-F5F5E2216DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C657860-5DB5-4177-B852-F5F5E2216DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C657860-5DB5-4177-B852-F5F5E2216DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C657860-5DB5-4177-B852-F5F5E2216DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40EBDB0C-3912-479D-BEC6-61CEE12605BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40EBDB0C-3912-479D-BEC6-61CEE12605BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40EBDB0C-3912-479D-BEC6-61CEE12605BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40EBDB0C-3912-479D-BEC6-61CEE12605BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

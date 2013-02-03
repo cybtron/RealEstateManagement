@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
 using RealEstateManagement.Core.DAL;
+using RealEstateManagement.Core.Models;
 
 namespace RealEstateManagement.Controllers
 {
@@ -30,12 +31,32 @@ namespace RealEstateManagement.Controllers
 		{
 			var testData = new RealEstateManagementContext();
 
+
+
+			var buyer = new Person
+			{
+				FirstName = "john",
+				LastName = "doe"
+			};
+
+			var buyer2 = new Person()
+				{
+					FirstName = "herooo"
+				};
+			
+			
+		
+			testData.Buyers.Add(buyer2);
+			testData.Buyers.Add(buyer);
+			testData.SaveChanges();
+			
+
 			var test1 = testData.Buyers.First();
 			
 			
 			//ViewBag.Message = "Your contact page.";
-
-			return View(test1);
+			return null;
+			//return View(test1);
 		}
 	}
 }

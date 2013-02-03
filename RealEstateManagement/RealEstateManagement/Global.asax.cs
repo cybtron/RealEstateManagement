@@ -22,6 +22,7 @@ namespace RealEstateManagement
 			RouteConfig.RegisterRoutes(RouteTable.Routes);
 			BundleConfig.RegisterBundles(BundleTable.Bundles);
 
+			//Database.SetInitializer(new DropCreateDatabaseAlways<RealEstateManagementContext>() );
 			Database.SetInitializer(new RealEstateManagementInitializer());
 			//AuthConfig.RegisterAuth();
 		}

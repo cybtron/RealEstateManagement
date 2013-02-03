@@ -8,6 +8,4 @@
 		public string NicNumber { get; set; }
 		public string FathersName { get; set; }
 	}
-
-	
 }

@@ -93,6 +93,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\AddressTests.cs" />
+    <Compile Include="Models\CountryTests.cs" />
+    <Compile Include="Models\ProvinceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
@@ -103,14 +106,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RealEstateManagement.Models\RealEstateManagement.Core.csproj">
+      <Project>{F758CC38-ECB4-4075-84AB-03AD6B9CAFAF}</Project>
+      <Name>RealEstateManagement.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RealEstateManagement\RealEstateManagement.Web.csproj">
       <Project>{7D9C19C3-D481-4E32-B378-D749A13EC723}</Project>
       <Name>RealEstateManagement.Web</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

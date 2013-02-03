@@ -11,12 +11,10 @@ namespace RealEstateManagement.Core.DAL
 			Database.SetInitializer(new CreateMySqlDatabaseIfNotExists<RealEstateManagementContext>());
 		}
 
-		//public RealEstateManagementContext()
-		//	: base("Name=LocalMySqlServer")
-		//{
-		//}
-
-		public DbSet<Person> Buyers { get; set; }
+		public DbSet<Person> Persons { get; set; }
+		public DbSet<Address> Addresses { get; set; }
+		public DbSet<Country> Countries { get; set; }
+		public DbSet<Province> Provinces { get; set; }
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)
 		{

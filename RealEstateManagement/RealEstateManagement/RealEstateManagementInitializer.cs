@@ -14,7 +14,7 @@ namespace RealEstateManagement
 					LastName = "doe"
 				};
 			//context.Database.Connection.BeginTransaction();
-			context.Buyers.Add(buyer);
+			context.Persons.Add(buyer);
 			context.SaveChanges();
 			
 		}

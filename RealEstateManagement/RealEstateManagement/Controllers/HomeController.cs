@@ -46,12 +46,12 @@ namespace RealEstateManagement.Controllers
 			
 			
 		
-			testData.Buyers.Add(buyer2);
-			testData.Buyers.Add(buyer);
+			testData.Persons.Add(buyer2);
+			testData.Persons.Add(buyer);
 			testData.SaveChanges();
-			
 
-			var test1 = testData.Buyers.First();
+
+			var test1 = testData.Persons.First();
 			
 			
 			//ViewBag.Message = "Your contact page.";

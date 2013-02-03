@@ -11,7 +11,7 @@ namespace RealEstateManagement.Tests.Models
 		{
 			var occupationStatus = new OccupationStatus
 			{
-				Name = "PropertyZoneName",
+				Name = "OccupationStatusName",
 			};
 
 			Assert.AreEqual(typeof(string), occupationStatus.Name.GetType());

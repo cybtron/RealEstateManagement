@@ -54,6 +54,7 @@
     <Compile Include="DAL\RealEstateManagementContext.cs" />
     <Compile Include="DAL\CreateMySqlDatabaseIfNotExists.cs" />
     <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\ConstructionStatus.cs" />
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\OccupationStatus.cs" />
     <Compile Include="Models\Person.cs" />

@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\AddressTests.cs" />
+    <Compile Include="Models\ConstructionStatusTests.cs" />
     <Compile Include="Models\CountryTests.cs" />
     <Compile Include="Models\OccupationStatusTests.cs" />
     <Compile Include="Models\PropertyTypeTests.cs" />

@@ -15,6 +15,7 @@ namespace RealEstateManagement.Core.DAL
 		public DbSet<Address> Addresses { get; set; }
 		public DbSet<Country> Countries { get; set; }
 		public DbSet<Province> Provinces { get; set; }
+		public DbSet<PropertyType> PropertyTypes { get; set; }
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)
 		{

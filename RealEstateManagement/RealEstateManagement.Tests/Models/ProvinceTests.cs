@@ -7,7 +7,7 @@ namespace RealEstateManagement.Tests.Models
 	public class ProvinceTests
 	{
 		[TestMethod]
-		public void Country_ShouldHaveProperties()
+		public void Province_ShouldHaveProperties()
 		{
 			var province = new Province
 				{

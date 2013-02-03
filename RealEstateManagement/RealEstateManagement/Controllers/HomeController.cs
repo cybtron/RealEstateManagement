@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
+using RealEstateManagement.Core.DAL;
 
 namespace RealEstateManagement.Controllers
 {
@@ -27,6 +25,17 @@ namespace RealEstateManagement.Controllers
 			ViewBag.Message = "Your contact page.";
 
 			return View();
+		}
+		public ActionResult Test()
+		{
+			var testData = new RealEstateManagementContext();
+
+			var test1 = testData.Buyers.First();
+			
+			
+			//ViewBag.Message = "Your contact page.";
+
+			return View(test1);
 		}
 	}
 }

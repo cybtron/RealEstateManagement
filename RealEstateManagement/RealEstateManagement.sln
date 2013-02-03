@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement.Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement.Data", "RealEstateManagement.Data\RealEstateManagement.Data.csproj", "{40EBDB0C-3912-479D-BEC6-61CEE12605BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagement.Core", "RealEstateManagement.Models\RealEstateManagement.Core.csproj", "{F758CC38-ECB4-4075-84AB-03AD6B9CAFAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{40EBDB0C-3912-479D-BEC6-61CEE12605BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40EBDB0C-3912-479D-BEC6-61CEE12605BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40EBDB0C-3912-479D-BEC6-61CEE12605BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F758CC38-ECB4-4075-84AB-03AD6B9CAFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F758CC38-ECB4-4075-84AB-03AD6B9CAFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F758CC38-ECB4-4075-84AB-03AD6B9CAFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F758CC38-ECB4-4075-84AB-03AD6B9CAFAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

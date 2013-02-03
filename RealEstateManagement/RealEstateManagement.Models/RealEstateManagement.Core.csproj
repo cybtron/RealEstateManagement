@@ -55,8 +55,10 @@
     <Compile Include="DAL\CreateMySqlDatabaseIfNotExists.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\OccupationStatus.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\PropertyType.cs" />
+    <Compile Include="Models\PropertyZone.cs" />
     <Compile Include="Models\Province.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

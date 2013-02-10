@@ -97,6 +97,7 @@
     <Compile Include="Models\ConstructionStatusTests.cs" />
     <Compile Include="Models\CountryTests.cs" />
     <Compile Include="Models\OccupationStatusTests.cs" />
+    <Compile Include="Models\PropertyTests.cs" />
     <Compile Include="Models\PropertyTypeTests.cs" />
     <Compile Include="Models\PropertyZoneTests.cs" />
     <Compile Include="Models\ProvinceTests.cs" />

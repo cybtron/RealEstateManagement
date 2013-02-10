@@ -19,6 +19,7 @@ namespace RealEstateManagement.Core.DAL
 		public DbSet<PropertyZone> PropertyZones { get; set; }
 		public DbSet<OccupationStatus> OccupationStatuses { get; set; }
 		public DbSet<ConstructionStatus> ConstructionStatuses { get; set; }
+		public DbSet<Property> Properties { get; set; }
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)
 		{

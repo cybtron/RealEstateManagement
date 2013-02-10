@@ -58,6 +58,7 @@
     <Compile Include="Models\Country.cs" />
     <Compile Include="Models\OccupationStatus.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Property.cs" />
     <Compile Include="Models\PropertyType.cs" />
     <Compile Include="Models\PropertyZone.cs" />
     <Compile Include="Models\Province.cs" />
